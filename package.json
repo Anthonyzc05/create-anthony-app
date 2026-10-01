@@ -1,0 +1,14 @@
+{
+  "name": "create-anthony-app",
+  "version": "1.0.0",
+  "description": "Genera proyectos base listos para usar (React + Firebase) desde la terminal",
+  "type": "module",
+  "bin": {
+    "create-anthony-app": "./index.js"
+  },
+  "files": ["index.js", "templates"],
+  "engines": { "node": ">=18" },
+  "keywords": ["cli", "react", "firebase", "template", "generator"],
+  "author": "Anthony Zuñiga Cavero",
+  "license": "MIT"
+}
