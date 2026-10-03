@@ -122,7 +122,10 @@ async function main() {
   console.log(`  cd ${nombreProyecto}`);
   console.log("  npm install");
   console.log("  npm run dev\n");
-  console.log("Recuerda activar Authentication (Correo/Contraseña y Google) en tu consola de Firebase.\n");
+  console.log("Recuerda activar Authentication (Correo/Contraseña y Google) en tu consola de Firebase.");
+  console.log("\n🎨 El diseño es solo una base: cámbialo a tu gusto.");
+  console.log("   Estilos: src/index.css  ·  Pantallas: src/pages/");
+  console.log("   Tus datos de Firebase ya están en .env, así que puedes rediseñar sin perder la conexión.\n");
 }
 
 main().catch((err) => {
